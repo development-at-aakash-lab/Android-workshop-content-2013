@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appintro">This is an application to show the use of service.</string>
+    <string name="app_name">Service Notification</string>
+    <string name="start">Start Service</string>
+	<string name="stop">Stop Service</string>
+	<string name="service_started">Service started</string>
+	<string name="service_label">Service Label</string>
+</resources>
