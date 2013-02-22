@@ -48,5 +48,3 @@ Content Providers: http://www.youtube.com/watch?v=5p4nPNqVSEI
 
 
 
-Day 2: session videos
-
