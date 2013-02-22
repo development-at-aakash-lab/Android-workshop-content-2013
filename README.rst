@@ -14,7 +14,7 @@ Session 2(Introdcution to Android)-Pradnya Mohite.
 
 Video link:
 
-Android introduction part 1:
+Android introduction part 1: Coming Soon.
 
 Android introduction part 2: http://www.youtube.com/watch?v=d45uLZEU5U0
 
