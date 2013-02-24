@@ -1,6 +1,6 @@
 Android-workshop-content-2013 (VIDEOS)
 =============================
-Day 1: session videos
+Day 1: Session Videos
 ----------------------
 
 
