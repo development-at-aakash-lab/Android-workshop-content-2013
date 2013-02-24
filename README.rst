@@ -100,7 +100,7 @@ Day 2: Session Videos
 
 * Android Media Part 2 - http://www.youtube.com/watch?v=KgO9srroZxs&feature=youtu.be
 
-* [Android Media Part 3](http://www.youtube.com/watch?v=tY_WDBkSy-Y&feature=youtu.be)
+ [Android Media Part 3] (http://www.youtube.com/watch?v=tY_WDBkSy-Y&feature=youtu.be)
 
 **Session 9(Android WebView )- Ajay Babar**
 
