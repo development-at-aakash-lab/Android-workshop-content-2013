@@ -73,4 +73,11 @@ Day 2: Session Videos
 **Session 6(Android App Resources)- Tushar Sharma**
 
 * Android App Resources part 1 -http://www.youtube.com/watch?v=k9f1vgBThx0&feature=youtu.be
-* Android App Resources part 1 -http://www.youtube.com/watch?v=4MJqhgCzJ8g&feature=youtu.be
+
+* Android App Resources part 2 -http://www.youtube.com/watch?v=4MJqhgCzJ8g&feature=youtu.be
+
+* Android App Resources part 3 -
+
+* Android App Resources part 4 -
+
+* Android App Resources part 5 -
