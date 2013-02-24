@@ -114,4 +114,4 @@ Coming Soon
 
 Coming Soon
 
-*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+
