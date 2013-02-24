@@ -114,5 +114,5 @@ Coming Soon
 
 Coming Soon
 
-$ curl -i TESTING -F "http://www.youtube.com/watch?v=tY_WDBkSy-Y&feature=youtu.be"
+$ curl -i TESTING -F "url = http://www.youtube.com/watch?v=tY_WDBkSy-Y&feature=youtu.be"
 
