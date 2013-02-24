@@ -96,7 +96,11 @@ Day 2: Session Videos
 
 **Session 8(Android Media)- Pradnya Mohite**
 
-Coming Soon
+* Android Media Part 1 - http://www.youtube.com/watch?v=GorJdq8N6aY&feature=youtu.be
+
+* Android Media Part 2 -
+
+* Android Media Part 3 -
 
 **Session 9(Android WebView )- Ajay Babar**
 
