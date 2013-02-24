@@ -86,7 +86,13 @@ Day 2: Session Videos
 
 **Session 7(Android Data Storge)- Nilesh Singh**
 
-Coming Soon
+* Android Data Storage Part 1(Internal Storage) - http://www.youtube.com/watch?v=bLqbX0D6A3E&feature=youtu.be
+
+* Android Data Storage Part 2(External Storage) - http://www.youtube.com/watch?v=YQXbaFcW3LA&feature=youtu.be
+
+* Android Data Storage Part 3(SQLite Database) - http://www.youtube.com/watch?v=eAogfMz4R4o&feature=youtu.be
+
+* Android Data Storage Part 4(Shared Preferences) -http://www.youtube.com/watch?v=IqV24N0Gki8&feature=youtu.be
 
 **Session 8(Android Media)- Pradnya Mohite**
 
