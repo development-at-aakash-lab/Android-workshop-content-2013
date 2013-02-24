@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="green_blue">#0ff</color>
+    <drawable name="rectangle_green">#f0f </drawable>
+    </resources>

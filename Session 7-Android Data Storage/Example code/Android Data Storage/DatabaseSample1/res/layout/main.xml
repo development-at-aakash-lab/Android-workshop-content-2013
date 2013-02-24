@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<TextView android:id="@+id/text" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:text="DataBase Sample App"
+		android:textSize="24.5sp" android:layout_gravity="center"
+		/>
+
+	<Button android:layout_below="@id/text" android:text="Save Data "
+		android:id="@+id/button1" android:layout_gravity="center"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="50dp"
+		android:layout_marginTop="50dp"></Button>
+	<Button android:layout_below="@id/button1" android:text="Check Data"
+		android:id="@+id/button2" android:layout_gravity="center"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="50dp"></Button>
+</RelativeLayout>

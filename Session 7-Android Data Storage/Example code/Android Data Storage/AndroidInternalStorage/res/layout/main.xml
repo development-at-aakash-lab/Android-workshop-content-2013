@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Enter File Name" />
+<EditText
+    android:id="@+id/filename"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Enter Content" />
+<EditText
+    android:id="@+id/content"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/save"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Save"/>
+</LinearLayout>

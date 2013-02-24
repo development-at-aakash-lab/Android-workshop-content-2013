@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#303030"
+    android:weightSum="10" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/bsearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_weight="0.15"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    
+    <WebView
+        android:id="@+id/webEngine"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        
+        android:layout_alignParentLeft="true"
+         />
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:background="#D8D8D8"
+	    android:layout_weight="1"
+	    android:weightSum="4" >
+        
+	    <Button
+	        android:id="@+id/bforw"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="Forward"
+	        android:textSize="14sp" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/bback"
+	         android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="Back"
+	        android:textSize="14sp" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/bref"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="Refresh"
+	        android:textSize="14sp" >
+	    </Button>
+	    
+	    <Button
+	        android:id="@+id/bhist"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:text="Clear History"
+	        android:textSize="14sp" >
+	    </Button>
+	    
+	</LinearLayout>
+</LinearLayout>
+

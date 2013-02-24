@@ -1,0 +1,140 @@
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+	
+        <TableRow>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Name" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5" >
+
+                <requestFocus />
+            </EditText>
+
+        </TableRow>
+
+        
+        <TableRow>
+       <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="Last Name" />
+
+       <EditText
+           android:id="@+id/editText2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="5" />
+
+        </TableRow>             
+                           
+        <TableRow >
+             <TextView
+                 android:id="@+id/textView4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Gender" />
+
+        <RadioGroup
+        android:id="@+id/radioGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" 
+            android:checked="true" />
+ 
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+ 
+    </RadioGroup>
+
+</TableRow>
+
+          <TableRow>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Country" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"  >
+                </Spinner>
+
+            </TableRow>
+
+          <TableRow>
+
+              <TextView
+                  android:id="@+id/textView3"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Occupation" />
+
+              <CheckBox
+                  android:id="@+id/checkBox1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Student" />
+
+              <CheckBox
+                  android:id="@+id/checkBox2"
+                  android:layout_width="10dp"
+                  android:layout_height="wrap_content"
+                  android:text="Teacher     " />
+
+          </TableRow>
+
+<TableRow >
+          <CheckBox
+              android:id="@+id/checkBox3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_column="1"
+              android:text="Businessman" />
+
+          <CheckBox
+              android:id="@+id/checkBox4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Other" />
+     </TableRow>
+     
+<TableRow >
+<Button
+    android:id="@+id/button2"
+    android:layout_width="1mm"
+    android:layout_height="wrap_content"
+    android:layout_column="1"
+    android:text="Submit" />
+
+<Button
+    android:id="@+id/button1"
+    android:ems="5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Reset" />
+
+</TableRow>
+    </TableLayout>

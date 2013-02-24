@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<HTML lang="es">
+<HEAD>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<TITLE>Aakash Android Workshop</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+<meta charset=”utf-8”>
+
+		<style>
+			body { padding:10px; font:14px/18px Calibri }
+			.bold { font-weight:bold }
+			td { padding:5px; border:1px solid #999 }
+			p, output { margin:10px 0 0 0 }
+			#drop_zone 
+			{ 
+			    margin:10px 0;
+			    width:100%; 
+			    min-height:150px; 
+			    text-align:center;
+			    text-transform:uppercase;
+			    font-weight:bold;
+			    border:1px dashed #888
+			}
+		</style>
+
+<script>
+			function listFileProperties(event) 
+			{
+			    /* Read the list of all the selected files. */
+			    var files = event.target.files; 
+
+			    /* Consolidate the output element. */
+			    var output = "<table><tr><td>Filename</td><td>File Type</td><td>File Size</td><td>Last Modified Date</td></tr>";
+
+			    /* Read each file and display the properties in a table. */
+			    for (var i = 0, f; f = files[i]; i++) 
+			    {
+			        output += "<tr><td>" + escape(f.name) + "</td>";       /* f.name - Filename  */
+			        output += "<td>" + f.type  + "</td>";                  /* f.type - File Type */
+			        output += "<td>" + f.size + " bytes</td>";             /* f.size - File Size */
+			        output += "<td>" + f.lastModifiedDate + "</td></tr>";  /* f.lastModifiedDate - Last Modified Date */
+			    }
+
+			    /* Close the table tag. */    
+			    output += "</table>";
+			    
+			    /* Attach the output to the HTML element. */
+			    document.getElementById('list').innerHTML = output;   
+			}
+
+			function handleDragOver(event) 
+			{
+			    event.stopPropagation();
+			    event.preventDefault();
+			    event.dataTransfer.dropEffect = 'copy';
+			}
+
+			function handleDnDFileSelect(event) 
+			{    
+			    event.stopPropagation();
+			    event.preventDefault();
+
+			    /* Read the list of all the selected files. */
+			    var files = event.dataTransfer.files;
+			    
+			    /* Consolidate the output element. */
+			    var output = "<table><tr><td>Filename</td><td>File Type</td><td>File Size</td><td>Last Modified Date</td></tr>";
+
+			    /* Read each file and display the properties in a table. */
+			    for (var i = 0, f; f = files[i]; i++) 
+			    {
+			        output += "<tr><td>" + escape(f.name) + "</td>";       /* f.name - Filename  */
+			        output += "<td>" + f.type  + "</td>";                  /* f.type - File Type */
+			        output += "<td>" + f.size + " bytes</td>";             /* f.size - File Size */
+			        output += "<td>" + f.lastModifiedDate + "</td></tr>";  /* f.lastModifiedDate - Last Modified Date */
+			    }
+			    
+			    /* Close the table tag. */
+			    output += "</table>";
+			    document.getElementById('list').innerHTML = output;   
+			}
+
+			function readFile() 
+			{
+			    /* Get the reference of the inpout element. */
+			    var files = document.getElementById('files').files;
+
+			    if (!files.length) 
+			    {
+			      alert('Please select a file!');
+			      return;
+			    }
+			    
+			    /* Reading the first file selected. You can process other files similarly in loop. */
+			    var file = files[0];
+
+			    /* Instantiate the File Reader object. */
+			    var reader = new FileReader();
+
+			    /* onLoad event is fired when the load completes. */
+			    reader.onload = function(event) {
+			        document.getElementById('content').textContent = event.target.result;      
+			    };
+
+			    /* The readAsText method will read the file's data as a text string. By default the string is decoded as 'UTF-8'. */
+			    reader.readAsText(file);
+			}
+		</script>
+
+	</head>
+
+
+<body  Text-align="center">
+<header id="banner" class="body">
+<h1>Aakash HTML5 Workshop</h1>
+
+
+<nav><ul>
+			<li ><a href="#">home</a></li>
+
+			<li><a href="#">About Us </a></li>
+			
+			<li><a href="#"> Application</a></li>
+			
+			<li><a href="#">contact</a></li>
+		</ul></nav>
+</header>
+<hr>
+<aside id="featured" class="body"><article>
+		
+		<hgroup>
+			<h2>Video Examples</h2>
+			
+		</hgroup>
+		
+
+	</article></aside><!-- /#featured -->
+
+<section id="content" class="body">
+		
+<ol id="posts-list" class="hfeed">
+	
+
+	
+	<header>
+	<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">
+	Click on video to play </a></h2>
+	</header>
+	<br>
+				
+	<p class="bold">Single File Selection :</p>
+		<input type="file" id="file" name="file">
+
+		<p class="bold">Mulitple File Selections</p>
+		<input type="file" id="files" name="files[]" multiple>
+		    
+		<div id="drop_zone">Drop files here</div>
+
+		<p class="bold">List file properties</p>
+		<output id="list"></output>
+
+		<p><button id="readFile">Read File</button></p>
+
+		<br><p class="bold">Content of the file</p></br>
+		<output id="content"></output>
+
+		<script>
+			if (window.File && window.FileList && window.FileReader) 
+			{
+			    /************************************ 
+			     * All the File APIs are supported. * 
+			     * Entire code goes here.           *
+			     ************************************/
+			    
+			    /* Listener for single file input element. */
+			    document.getElementById('file').addEventListener('change', listFileProperties, false);
+			    
+			    /* Listener for multiple files input element. */
+			    document.getElementById('files').addEventListener('change', listFileProperties, false);
+			    
+			    /* Setup the Drag-n-Drop listeners. */
+			    var dropZone = document.getElementById('drop_zone');
+			    dropZone.addEventListener('dragover', handleDragOver, false);
+			    dropZone.addEventListener('drop', handleDnDFileSelect, false);
+			    
+			    /* Listener for read file. */
+			    document.getElementById('readFile').addEventListener('click', function(event) {
+			      readFile();    
+			    }, false);
+			} 
+			else 
+			{
+			    alert('Sorry! this browser does not support HTML5 File APIs.');
+			}
+		</script>
+	<br>
+	<br>
+	<header>
+	<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">
+	Content of the File  </a></h2>
+	</header>
+	<br>
+	<br>
+	<img src="videocode.png">
+	
+	</ol><!-- /#posts-list -->
+		
+	</section><!-- /#content -->
+
+
+
+</body>
+</html>

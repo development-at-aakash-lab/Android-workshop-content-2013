@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<HTML lang="es">
+<HEAD>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<TITLE> Aakash Android Workshop</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+<meta charset=”utf-8”>
+
+<style type="text/css">
+#div1 {width:350px;height:150px;padding:10px;border:1px solid #aaaaaa;}
+#div2 {width:350px;height:150px;padding:10px;border:1px solid #aaaaaa;}
+</style>
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+
+
+<body  Text-align="center">
+<header id="banner" class="body">
+<h1>Aakash HTML5 Workshop</h1>
+
+
+<nav><ul>
+			<li ><a href="#">home</a></li>
+
+			<li><a href="#">About Us </a></li>
+			
+			<li><a href="#"> Application</a></li>
+			
+			<li><a href="#">contact</a></li>
+		</ul></nav>
+</header>
+<hr>
+<aside id="featured" class="body"><article>
+		
+		<hgroup>
+			<h2>Drag & Drop Examples in HTML 5</h2>
+			
+		</hgroup>
+		
+
+	</article></aside><!-- /#featured -->
+
+<section id="content" class="body">
+		
+<ol id="posts-list" class="hfeed">
+	
+
+	
+	<header>
+	<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">
+	This is your Output  </a></h2>
+	</header>
+				
+	<table>
+<tr>
+<td>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</td>
+
+<br><br><br>
+<td>
+<aside>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</aside>
+</td>
+<br></table>
+<img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="250" height="130">
+	<header>
+	<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">
+	Reference </a></h2>
+	</header>
+	<img src="matrix.jpeg" hieght="42" width="42">
+	<div class="entry-content">
+	<p><b> www.w3schools.com/html5/ </b></p></div>
+	</ol><!-- /#posts-list -->
+		
+	</section><!-- /#content -->
+
+
+
+</body>
+</html>

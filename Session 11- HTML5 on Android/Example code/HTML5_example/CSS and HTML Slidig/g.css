@@ -1,0 +1,112 @@
+body {
+  background:rgb(28,28,28);
+}
+[id="1"] {
+  overflow:hidden;
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:800px;
+  height:450px;
+  margin:-260px 0 0 -400px;
+  border-radius:10px;
+  -webkit-box-shadow:0 1px 7px #000;
+  box-shadow:0 1px 7px #000;
+}
+[id="1"]:hover a {
+  opacity:1;
+}
+[id="1"]:target [data-paginate][href$="1"],
+[id="2"]:target [data-paginate][href$="2"],
+[id="3"]:target [data-paginate][href$="3"],
+[id="4"]:target [data-paginate][href$="4"] {
+  background-position:0 0;
+}
+[id="1"]:target *+span {
+  -webkit-transform:translate3d(0,0,0);
+  -moz-transform:translateX(0);
+}
+[id="2"]:target *+span {
+  -webkit-transform:translate3d(-800px,0,0);
+  -moz-transform:translateX(-25%);
+}
+[id="3"]:target *+span {
+  -webkit-transform:translate3d(-1600px,0,0);
+  -moz-transform:translateX(-50%);
+}
+[id="4"]:target *+span {
+  -webkit-transform:translate3d(-2400px,0,0);
+  -moz-transform:translateX(-75%);
+}
+[id="2"] {
+  display:block;
+  height:100%;
+  -webkit-mask-box-image:url(mask.png);
+}
+[id="2"]::before {
+  content:"";
+  width:100%;
+  height:100%;
+  background:url(border.png);
+  pointer-events:none;
+}
+[id="2"]::before, a {
+  position:absolute;
+  z-index:1;
+}
+a {
+  opacity:0;
+  -webkit-transition:opacity .8s cubic-bezier(0,0,.4,1);
+  -moz-transition:opacity .8s cubic-bezier(0,0,.4,1);
+}
+[data-paginate] {
+  left:356px;
+  bottom:15px;
+  width:16px;
+  height:17px;
+  background:url(dots.png) no-repeat 0 100%;
+}
+[data-paginate][href$="2"] {
+  left:381px;
+}
+[data-paginate][href$="3"] {
+  left:405px;
+}
+[data-paginate][href$="4"] {
+  left:429px;
+}
+[data-dir] {
+  top:200px;
+  background:url(arrows.png);
+  width:29px;
+  height:29px;
+  visibility:hidden;
+}
+[data-dir]:active {
+  -webkit-transform:translateY(1px);
+  -moz-transform:translateY(1px);
+}
+[data-dir="l"] {
+  left:30px;
+  background-position:0 100%;
+}
+[data-dir="r"] {
+  right:30px;
+}
+[id="1"]:target [data-dir="r"][href$="2"],
+[id="2"]:target [data-dir="l"][href$="1"],
+[id="2"]:target [data-dir="r"][href$="3"],
+[id="3"]:target [data-dir="l"][href$="2"],
+[id="3"]:target [data-dir="r"][href$="4"],
+[id="4"]:target [data-dir="l"][href$="3"] {
+  visibility:visible;
+}
+*+span {
+  display:block;
+  width:3200px;
+  -webkit-transition:-webkit-transform 1s cubic-bezier(0,0,.2,1);
+  -moz-transition:-moz-transform 1s cubic-bezier(0,0,.2,1);
+}
+img {
+  float:left;
+}

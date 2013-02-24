@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources SYSTEM "resources.dtd">
+<resources>
+
+    <string name="app_name">Appresources</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="android">android_workshop</string>
+    <string name="stringresources">this is string resources</string>
+    <color name="red_green">#f0f</color>
+    <color name="Yellow">#ff0</color>
+    
+
+   </resources>

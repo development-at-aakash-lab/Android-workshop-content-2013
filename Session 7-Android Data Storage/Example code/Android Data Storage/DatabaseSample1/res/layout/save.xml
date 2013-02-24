@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LinearLayout01" android:orientation="vertical"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:paddingLeft="20sp">
+	<TextView android:id="@+id/button1_label"
+		android:layout_height="fill_parent" android:layout_width="wrap_content"
+		android:text="Fill Information" android:textSize="24.5sp"
+		android:layout_gravity="center" android:layout_marginBottom="25dip" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Name:"
+		android:layout_gravity="center" android:textSize="14.5sp" />
+	<EditText android:id="@+id/name" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Telephone Number:"
+		android:layout_gravity="center" android:textSize="14.5sp" />
+	<EditText android:id="@+id/number" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Skype ID:"
+		android:layout_gravity="center" android:textSize="14.5sp" />
+	<EditText android:id="@+id/skypeId" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Address:"
+		android:layout_gravity="center" android:textSize="14.5sp" />
+	<EditText android:id="@+id/address" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingLeft="20sp">
+		<Button android:text="Save" android:id="@+id/Button01add"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="20sp" android:layout_marginLeft="20sp"></Button>
+		<Button android:text="Back" android:id="@+id/Button01home"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="20sp" android:layout_marginLeft="20sp"></Button>
+	</LinearLayout>
+</LinearLayout>

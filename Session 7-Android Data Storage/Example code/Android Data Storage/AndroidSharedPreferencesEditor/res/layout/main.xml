@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Saved Mem 1:"
+    />
+<TextView  
+    android:id="@+id/savedmem1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Saved Mem 2:"
+    />
+<TextView  
+    android:id="@+id/savedmem2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<EditText 
+    android:id="@+id/edittext1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<Button
+    android:id="@+id/save_mem1"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Save Mem 1"
+    />
+<EditText 
+    android:id="@+id/edittext2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    />
+<Button
+    android:id="@+id/save_mem2"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="Save Mem 2"
+    />
+</LinearLayout>
