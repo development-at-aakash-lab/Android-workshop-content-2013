@@ -11,7 +11,7 @@ Only slides. No video is present.
 
 
  
-Session 2(Introdcution to Android)-Pradnya Mohite.
+**Session 2(Introdcution to Android)-Pradnya Mohite.**
 
 Video link:
 
@@ -20,7 +20,7 @@ Android introduction part 1: Coming Soon.
 Android introduction part 2: http://www.youtube.com/watch?v=d45uLZEU5U0
 
 
-Session 3(Android Environment Installation)-Nilesh Singh.
+**Session 3(Android Environment Installation)-Nilesh Singh.**
 
 Video link:
 
@@ -31,7 +31,7 @@ Android installation part 2: http://www.youtube.com/watch?v=6zfN_S8Vyrc
 
 
 
-Session 4(Android Building Blocks)-Vivek Nadar.
+**Session 4(Android Building Blocks)-Vivek Nadar.**
 
 Video link:
 
@@ -52,7 +52,7 @@ Content Providers: http://www.youtube.com/watch?v=5p4nPNqVSEI
 Day 2: Session Videos
 -----------------------
 
-Session 5(Android UI)- Raeha Sandalwala
+**Session 5(Android UI)- Raeha Sandalwala**
 
 Android UI part 1 - http://www.youtube.com/watch?v=KdX4DaFRAKU
 
