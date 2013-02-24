@@ -1,0 +1,711 @@
+@charset "utf-8";
+/* CSS Document
+
+Name: Vivek Kumar
+Email: vivekwebmaker@gmail.com
+Company:IDS Infotech Ltd.
+ */
+
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	overflow:hidden;
+}
+/*
+//////////////////////////////////////////////////
+				CLOUD
+//////////////////////////////////////////////////
+*/
+#clouds {
+	padding:100px 0px;
+	background:#c9dbe9;
+	background:-webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background:-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background:-moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+.cloud {
+	width:200px;
+	height:60px;
+	background:#fff;
+	border-radius:200px;
+	-moz-border-radius:200px;
+	-webkit-border-radius:200px;
+	position:relative;
+}
+.cloud:before, .cloud:after {
+	content:'';
+	position:absolute;
+	width:100px;
+	height:80px;
+	background:#fff;
+	position:absolute;
+	top:-15px;
+	left:10px;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	-webkit-transform:rotate(30deg);
+	transform:rotate(30deg);
+	-moz-transform:rotate(30deg);
+}
+.cloud:after {
+	width:120px;
+	height:120px;
+	top:-55px;
+	left:auto;
+	right:15px;
+}
+/*
+//////////////////////////////////////////////////
+				CLOUD Animation Code
+//////////////////////////////////////////////////
+*/
+
+.x1 {
+	-webkit-animation:moveclouds 45s linear infinite;
+	-moz-animation:moveclouds 45s linear infinite;
+	-o-animation:moveclouds 45s linear infinite;
+}
+.x2 {
+	left:200px;
+	-webkit-transform:scale(0.6);
+	-mox-transform:scale(0.6);
+	transform:scale(0.6);
+	opacity: 0.6; /*opacity proportional to the size*/
+	-webkit-animation:moveclouds 65s linear infinite;
+	-moz-animation:moveclouds 50s linear infinite;
+	-o-animation:moveclouds 50s linear infinite;
+}
+.x3 {
+	left:-250px;
+	top:-175px;
+	-webkit-transform:scale(0.8);
+	-mox-transform:scale(0.8);
+	transform:scale(0.8);
+	opacity: 0.6; /*opacity proportional to the size*/
+	-webkit-animation:moveclouds 60s linear infinite;
+	-moz-animation:moveclouds 50s linear infinite;
+	-o-animation:moveclouds 50s linear infinite;
+}
+.x4 {
+	left:470px;
+	top:-250px;
+	-webkit-transform:scale(0.75);
+	-mox-transform:scale(0.75);
+	transform:scale(0.75);
+	opacity: 0.75; /*opacity proportional to the size*/
+	-webkit-animation:moveclouds 102s linear infinite;
+	-moz-animation:moveclouds 102s linear infinite;
+	-o-animation:moveclouds 102s linear infinite;
+}
+.x5 {
+	left:-150px;
+	top:-150px;
+	-webkit-transform:scale(0.8);
+	-mox-transform:scale(0.8);
+	transform:scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	-webkit-animation:moveclouds 70s linear infinite;
+	-moz-animation:moveclouds 60s linear infinite;
+	-o-animation:moveclouds 60s linear infinite;
+}
+.x6 {
+	left:50px;
+	top:-280px;
+	opacity: 0.4; /*opacity proportional to the size*/
+	-webkit-animation:moveclouds 55s linear infinite;
+	-moz-animation:moveclouds 55s linear infinite;
+	-o-animation:moveclouds 55s linear infinite;
+}
+.x7 {
+	left:-80px;
+	top:-225px;
+	-webkit-transform:scale(0.8);
+	-mox-transform:scale(0.8);
+	transform:scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	-webkit-animation:moveclouds 98s linear infinite;
+	-moz-animation:moveclouds 98s linear infinite;
+	-o-animation:moveclouds 98s linear infinite;
+}
+@-webkit-keyframes moveclouds {
+ 0% {
+ margin-left:110%;
+}
+ 100% {
+ margin-left:-110%;
+}
+}
+@-moz-keyframes moveclouds {
+ 0% {
+ margin-left:110%;
+}
+ 100% {
+ margin-left:-110%;
+}
+}
+@-o-keyframes moveclouds {
+ 0% {
+ margin-left:110%;
+}
+100% {
+ margin-left:-110%;
+}
+}
+/*
+//////////////////////////////////////////////////
+				GRASS
+//////////////////////////////////////////////////
+*/
+.grass {
+	background:url(grass.png) bottom center no-repeat;
+	height:295px;
+	width:100%;
+	bottom:0px;
+	position:absolute;
+}
+.cycle {
+	/*background:url(cycle-2.png) no-repeat;*/
+	width:279px;
+	height:260px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	
+}
+.bycycle {
+	background:url(cycle-2.png) no-repeat;
+	width:279px;
+	height:253px;
+	position:absolute;
+	z-index:1;
+	
+	-webkit-animation:bycycle-ride 500ms linear infinite;
+	-moz-animation:bycycle-ride 500ms linear infinite;
+	-o-animation:bycycle-ride 500ms linear infinite;
+	-ms-animation:bycycle-ride 500ms linear infinite;
+	animation:bycycle-ride 500ms linear infinite;
+}
+
+@-webkit-keyframes bycycle-ride{
+	0%,50.000%{background-position:0 0}
+	50.001%,100%{background-position:0 100%}
+}
+@-moz-keyframes bycycle-ride{
+	0%,50.000%{background-position:0 0}
+	50.001%,100%{background-position:0 100%}
+}
+/*
+//////////////////////////////////////////////////
+				Cycle Animation Code
+//////////////////////////////////////////////////
+*/
+.cycle-ride {
+	-webkit-animation:movecycle 20s ease-in-out infinite;
+	-moz-animation:movecycle 20s ease-in-out infinite;
+	-o-animation:movecycle 20s ease-in-out infinite;
+}
+@-webkit-keyframes movecycle {
+ 0% {
+ margin-right:100%;
+}
+ 100% {
+ margin-right:-100%;
+}
+}
+@-moz-keyframes movecycle {
+ 0% {
+ margin-right:100%;
+}
+ 100% {
+ margin-right:-100%;
+}
+}
+@-o-keyframes movecycle {
+ 0% {
+ margin-right:100%;
+}
+ 100% {
+ margin-right:-100%;
+}
+}
+/*
+//////////////////////////////////////////////////
+				BIRD
+//////////////////////////////////////////////////
+*/
+.bird {
+	/*background:url(birds.png) no-repeat;*/
+	position:absolute;
+	height:200px;
+	width:200px;
+	
+	
+	
+}
+/*
+//////////////////////////////////////////////////
+				BIRD Animation Code
+//////////////////////////////////////////////////
+*/
+.fly {
+	-webkit-animation:birdfly 20s linear infinite;
+	-moz-animation:birdfly 20s ease-in-out infinite;
+	-o-animation:birdfly 20s ease-in-out infinite;
+	width:500px;
+	height:300px;
+}
+@-webkit-keyframes birdfly {
+ 0% {
+ margin-left:100%;
+ top:300px;
+}
+ 20% {
+ top:200px;
+ -webkit-transform:rotate(50deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 40% {
+ top:150px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 50% {
+ top:100px;
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 60% {
+ top:50px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 70% {
+ top:-300px;
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 80% {
+ top:-50px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 100% {
+ margin-left:-100%;
+ top:-70px;
+ opacity:.4;
+ -webkit-transform:scale(0.4);
+ -moz-transform:scale(0.4);
+ transform:scale(0.4);
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+}
+@-moz-keyframes birdfly {
+ 0% {
+ margin-left:100%;
+ top:300px
+}
+ 20% {
+ top:200px;
+ -webkit-transform:rotate(50deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 40% {
+ top:150px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 50% {
+ top:100px;
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 60% {
+ top:50px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 70% {
+ top:-300px;
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 80% {
+ top:-50px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 100% {
+ margin-left:-100%;
+ top:-70px;
+ opacity:.4;
+ -webkit-transform:scale(0.4);
+ -moz-transform:scale(0.4);
+ transform:scale(0.4);
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+}
+@-o-keyframes birdfly {
+0% {
+ margin-left:100%;
+ top:300px
+}
+ 20% {
+ top:200px;
+ -webkit-transform:rotate(50deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 40% {
+ top:150px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 50% {
+ top:100px;
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 60% {
+ top:50px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 70% {
+ top:-300px;
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+ 80% {
+ top:-50px;
+ -webkit-transform:rotate(0deg);
+ transform:rotate(0deg);
+ -moz-transform:rotate(0deg);
+}
+ 100% {
+ margin-left:-100%;
+ top:-70px;
+ opacity:.4;
+ -webkit-transform:scale(0.4);
+ -moz-transform:scale(0.4);
+ transform:scale(0.4);
+ -webkit-transform:rotate(10deg);
+ transform:rotate(10deg);
+ -moz-transform:rotate(10deg);
+}
+}
+.name {
+	font-size:30px;
+	color: transparent;
+	right:20px;
+	position:absolute;
+	bottom:0px;
+	-webkit-animation:name 25s ease-in-out infinite;
+	-moz-animation:name 25s ease-in-out infinite;
+	-o-animation:name 25s ease-in-out infinite;
+}
+ @-webkit-keyframes name {
+ 0% {
+ text-shadow: 0 0 0px rgba(0,0,0,1);
+}
+ 100% {
+ text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+}
+@-moz-keyframes name {
+ 0% {
+ text-shadow: 0 0 0px rgba(0,0,0,1);
+}
+ 100% {
+ text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+}
+@-o-keyframes name {
+ 0% {
+ text-shadow: 0 0 0px rgba(0,0,0,1);
+}
+ 100% {
+ text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+}
+/* Create the animation blocks */
+
+
+/* Spinning, gradient circle; CSS only! */
+.cycle-front, .cycle-back {
+	width: 108px;
+	height: 107px;
+	position:absolute;
+	bottom:8px;
+	right:8px;
+	background:url(wheel-front.png) no-repeat;
+	-webkit-animation:spin 2s linear infinite;
+	-moz-animation:spin 2s linear infinite;
+	-o-animation:spin 2s linear infinite;
+}
+.cycle-back {
+	background:url(wheel-back.png) no-repeat;
+	bottom:8px;
+	left:8px;
+}
+ @-webkit-keyframes spin {
+ from {
+ -webkit-transform: rotate(0deg);
+}
+to {
+	-webkit-transform: rotate(360deg);
+}
+}
+@-moz-keyframes spin {
+ from {
+ -moz-transform: rotate(0deg);
+}
+to {
+	-moz-transform: rotate(360deg);
+}
+}
+@-o-keyframes spin {
+ from {
+ -o-transform: rotate(0deg);
+}
+to {
+	-o-transform: rotate(360deg);
+}
+}
+ @keyframes bird-1 {
+ /*0% {
+top:274px;
+left:100%
+}
+ 35% {
+top:371px;
+left:75%
+}
+ 60% {
+top:275px;
+left:50%
+}
+ 75% {
+top:350px;
+left:25%
+}
+ 100% {
+top:274px;
+left:-10%
+}*/
+}
+@-moz-keyframes bird-1 {
+ /*0% {
+top:274px;
+left:110%
+}
+ 35% {
+top:371px;
+left:75%
+}
+ 60% {
+top:275px;
+left:50%
+}
+ 75% {
+top:350px;
+left:25%
+}
+ 100% {
+top:274px;
+left:-10%
+}*/
+}
+@-webkit-keyframes bird-1 {
+/* 0% {
+top:274px;
+left:10%
+}
+ 35% {
+top:371px;
+left:75%
+}
+ 60% {
+top:275px;
+left:50%
+}
+ 75% {
+top:350px;
+left:25%
+}
+ 100% {
+top:274px;
+left:-10%
+}*/
+}
+@-o-keyframes bird-1 {
+/* 0% {
+top:274px;
+left:110%
+}
+ 35% {
+top:371px;
+left:75%
+}
+ 60% {
+top:275px;
+left:50%
+}
+ 75% {
+top:350px;
+left:25%
+}
+ 100% {
+top:274px;
+left:-10%
+}*/
+}
+@-ms-keyframes bird-1 {
+/* 0% {
+top:274px;
+left:110%
+}
+ 35% {
+top:371px;
+left:75%
+}
+ 60% {
+top:275px;
+left:50%
+}
+ 75% {
+top:350px;
+left:25%
+}
+ 100% {
+top:274px;
+left:-10%
+}*/
+}
+
+ @-webkit-keyframes sprit-bird-rl {
+ 0%,50.0% {
+background-position:0 -15px
+}
+ 50.1%,100% {
+background-position:-30px -15px
+}
+}
+
+@keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+@-moz-keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+
+@-o-keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+@-ms-keyframes "sprit-bird-rl"{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+
+@-webkit-keyframes sprit-bird-r2 {
+ 0%,50.0% {
+background-position:0 -15px
+}
+ 50.1%,100% {
+background-position:-30px -15px
+}
+}
+
+@keyframes sprit-bird-r2{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+@-moz-keyframes sprit-bird-r2{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+
+@-o-keyframes sprit-bird-r2{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+@-ms-keyframes "sprit-bird-r2"{
+	0%,50.000%{background-position:0 -15px}
+	50.001%,100%{background-position:-30px -15px}
+}
+
+
+
+.bird-1, .bird-2,.bird-3,.bird-4,.bird-5, .bird-6, .bird-7 {
+	width:30px;
+	height:15px;
+	position:absolute;
+	top:20px;
+	left:0%;
+	background:url(bird.png) no-repeat 0 -15px;
+	z-index:8;
+	
+	
+}
+.bird-1,.bird-2,.bird-5,.bird-6{
+	-webkit-animation:sprit-bird-rl 200ms linear infinite;
+	-moz-animation:sprit-bird-rl 200ms linear infinite;
+	-o-animation:sprit-bird-rl 200ms linear infinite;
+	-ms-animation:sprit-bird-rl 200ms linear infinite;
+	animation:sprit-bird-rl 200ms linear infinite;
+	}
+ .bird-2{
+	 top:40px;
+	left:20%
+ }
+ .bird-3,.bird-4,.bird-7{
+	 top:2px;
+	left:35%;
+	-webkit-animation:sprit-bird-r2 100ms linear infinite;
+	-moz-animation:sprit-bird-r2 100ms linear infinite;
+	-o-animation:sprit-bird-r2 100ms linear infinite;
+	-ms-animation:sprit-bird-r2 100ms linear infinite;
+	animation:sprit-bird-r2 100ms linear infinite;
+ }
+  .bird-4{
+	 top:26px;
+	left:55%
+ }
+ 
+  .bird-5{
+	 top:60px;
+	left:60%
+ }
+  .bird-6{
+	 top:6px;
+	left:85%
+ }
+  .bird-7{
+	 top:58px;
+	left:100%
+ }

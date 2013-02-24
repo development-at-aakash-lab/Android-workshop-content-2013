@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<HTML lang="es">
+<HEAD>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<TITLE> AAKASH WORKSHOP</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+<meta charset=”utf-8”>
+
+</head>
+
+
+<body  Text-align="center">
+<header id="banner" class="body">
+<h1>Aakash HTML5 Workshop</h1>
+
+
+<nav><ul>
+			<li ><a href="#">home</a></li>
+
+			<li><a href="#">About Us </a></li>
+			
+			<li><a href="#"> Application</a></li>
+			
+			<li><a href="#">contact</a></li>
+		</ul></nav>
+</header>
+<hr>
+<aside id="featured" class="body"><article>
+		
+		<hgroup>
+			<h2>Video Examples</h2>
+			
+		</hgroup>
+		
+
+	</article></aside><!-- /#featured -->
+
+<section id="content" class="body">
+		
+<ol id="posts-list" class="hfeed">
+	
+
+	
+	<header>
+	<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">
+	Click on video to play </a></h2>
+	</header>
+	<br>
+				
+	<video id='video' width='500px' height='375px' controls preload poster="poster.png">
+	<source src="rajni.ogg" />
+	</video>
+	<br>
+	<br>
+	<header>
+	<h2 class="entry-title"><a href="#" rel="bookmark" title="Permalink to this POST TITLE">
+	Using this Code  </a></h2>
+	</header>
+	<br>
+	<br>
+	<img src="videocode.png">
+	
+	</ol><!-- /#posts-list -->
+		
+	</section><!-- /#content -->
+
+
+
+</body>
+</html>
