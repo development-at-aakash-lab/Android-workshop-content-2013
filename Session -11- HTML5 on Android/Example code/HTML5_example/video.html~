@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-<video id='video' width='500px' height='375px' controls preload poster="static/poster.png">
-<source src="rajni.ogg" />
-	</video>
-</body>
-</html>
-
