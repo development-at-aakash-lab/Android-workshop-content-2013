@@ -5,7 +5,7 @@ Day 1: Session Videos
 
 
 
-Session 1(Java Basics)-Ajay Babar and Vivek Nadar.
+**Session 1(Java Basics)-Ajay Babar and Vivek Nadar.**
 
 Only slides. No video is present.
 
