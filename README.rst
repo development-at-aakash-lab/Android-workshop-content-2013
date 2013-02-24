@@ -1,6 +1,7 @@
 Android-workshop-content-2013 (VIDEOS)
 =============================
 Day 1: session videos
+----------------------
 
 
 
@@ -49,6 +50,7 @@ Content Providers: http://www.youtube.com/watch?v=5p4nPNqVSEI
 
 
 Day 2: Session Videos
+-----------------------
 
 Session 5(Android UI)- Raeha Sandalwala
 
