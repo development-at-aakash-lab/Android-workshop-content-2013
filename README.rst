@@ -69,3 +69,7 @@ Day 2: Session Videos
 * Android UI part 7 - http://www.youtube.com/watch?v=R5zOKIsFkJ4
 
 * Android UI part 8 - http://www.youtube.com/watch?v=QIYbVTiTTcc
+
+**Session 6(Android App Resources)- Tushar Sharma**
+
+* Android App Resources part 1 -http://www.youtube.com/watch?v=k9f1vgBThx0&feature=youtu.be
