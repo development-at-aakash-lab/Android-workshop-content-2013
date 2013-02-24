@@ -83,3 +83,23 @@ Day 2: Session Videos
 * Android App Resources part 5 - http://www.youtube.com/watch?v=GXn6_APqDr4&feature=youtu.be
 
 * Android App Resources part 6 - http://www.youtube.com/watch?v=dm-k2XrboU0&feature=youtu.be
+
+**Session 7(Android Data Storge)- Nilesh Singh**
+
+Coming Soon
+
+**Session 8(Android Media)- Pradnya Mohite**
+
+Coming Soon
+
+**Session 9(Android WebView )- Ajay Babar**
+
+Coming Soon
+
+**Session 10(Android Publishing your app)- Ajay Babar**
+
+Coming Soon
+
+**Session 11(HTML5 on Android)- Nilesh Singh**
+
+Coming Soon
