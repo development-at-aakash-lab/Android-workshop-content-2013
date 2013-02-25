@@ -4,10 +4,9 @@ Day 1: Session Videos
 ----------------------
 
 
+**Session 1(Java Basics)-Ajay Babar and Vivek Nadar.**
 
-''' **Session 1(Java Basics)-Ajay Babar and Vivek Nadar.**
-
-Only slides. No video is present.'''
+Only slides. No video is present.
 
 
  
@@ -17,7 +16,7 @@ Video link:
 
 * Android introduction part 1: Coming Soon.
 
-* Android introduction part 2: http://www.youtube.com/watch?v=d45uLZEU5U0
+* [Android introduction part 2](http://www.youtube.com/watch?v=d45uLZEU5U0)
 
 
 **Session 3(Android Environment Installation)-Nilesh Singh.**
