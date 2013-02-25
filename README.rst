@@ -16,7 +16,7 @@ Video link:
 
 * Android introduction part 1: Coming Soon.
 
-* click here  [Android introduction part 2](http://www.youtube.com/watch?v=d45uLZEU5U0)
+* Android introduction part 2: http://www.youtube.com/watch?v=d45uLZEU5U0
 
 
 **Session 3(Android Environment Installation)-Nilesh Singh.**
