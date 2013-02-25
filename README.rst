@@ -5,9 +5,9 @@ Day 1: Session Videos
 
 
 
-**Session 1(Java Basics)-Ajay Babar and Vivek Nadar.**
+''' **Session 1(Java Basics)-Ajay Babar and Vivek Nadar.**
 
-Only slides. No video is present.
+Only slides. No video is present.'''
 
 
  
@@ -114,6 +114,5 @@ Coming Soon
 
 Coming Soon
 
- * <a href="http://www.youtube.com/watch?v=tY_WDBkSy-Y&feature=youtu.be">myLib/</a>
 
 
