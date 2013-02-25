@@ -3,10 +3,10 @@ Android-workshop-content-2013 (VIDEOS)
 Day 1: Session Videos
 ----------------------
 
-```
+
 **Session 1(Java Basics)-Ajay Babar and Vivek Nadar.**
 
-Only slides. No video is present.```
+Only slides. No video is present.
 
 
  
