@@ -10,7 +10,7 @@ Only slides. No video is present.
 
 
  
-**Session 2(Introdcution to Android)-Pradnya Mohite.**
+``**Session 2(Introdcution to Android)-Pradnya Mohite.**``
 
 Video link:
 
