@@ -104,15 +104,17 @@ Day 2: Session Videos
 
 **Session 9(Android WebView )- Ajay Babar**
 
+Coming Soon
+
+
+**Session 10(Android Publishing your app)- Ajay Babar**
+
+
 * `Android Publishing your Application part-1 <http://www.youtube.com/watch?v=QKa7FOVHJ-s&feature=youtu.be>`_.
 
 * `Android Publishing your Application part-2 <http://www.youtube.com/watch?v=siygjHJp9t8&feature=youtu.be>`_.
 
 * `Android Publishing your Application part-3 <http://www.youtube.com/watch?v=4CgpwFWpGJk&feature=youtu.be>`_.
-
-**Session 10(Android Publishing your app)- Ajay Babar**
-
-Coming Soon
 
 **Session 11(HTML5 on Android)- Nilesh Singh**
 
