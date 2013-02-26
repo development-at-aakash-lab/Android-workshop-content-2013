@@ -16,9 +16,11 @@ Video link:
 
 * Android introduction part 1: Coming Soon.
 
-* Android introduction part 2: http://www.youtube.com/watch?v=d45uLZEU5U0
+* `Android introduction part 2 <http://www.youtube.com/watch?v=d45uLZEU5U0/>`_.
 
 
+`Deferred Objects
+<http://api.jquery.com/category/deferred-object/>`_.
 **Session 3(Android Environment Installation)-Nilesh Singh.**
 
 Video link:
@@ -114,5 +116,3 @@ Coming Soon
 Coming Soon
 
 
-`Deferred Objects
-<http://api.jquery.com/category/deferred-object/>`_.
