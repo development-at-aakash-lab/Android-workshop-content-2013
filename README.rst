@@ -82,7 +82,7 @@ Day 2: Session Videos
 
 * `Android App Resources part 5 <http://www.youtube.com/watch?v=GXn6_APqDr4&feature=youtu.be>`_.
 
-* `Android App Resources part 6 <http://www.youtube.com/watch?v=dm-k2XrboU0&feature=youtu.be>`_.
+* `Supporting Multiple Screens <http://www.youtube.com/watch?v=dm-k2XrboU0&feature=youtu.be>`_.
 
 **Session 7(Android Data Storge)- Nilesh Singh**
 
