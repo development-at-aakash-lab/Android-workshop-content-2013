@@ -114,4 +114,5 @@ Coming Soon
 Coming Soon
 
 
-
+`Deferred Objects
+<http://api.jquery.com/category/deferred-object/>`_.
