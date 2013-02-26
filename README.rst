@@ -24,9 +24,9 @@ Video link:
 
 Video link:
 
-* Android installation part 1: http://www.youtube.com/watch?v=DqVOaDrt8Zc
+* `Android installation part 1 <http://www.youtube.com/watch?v=DqVOaDrt8Zc>`_
 
-* Android installation part 2: http://www.youtube.com/watch?v=6zfN_S8Vyrc
+* `Android installation part 2 <http://www.youtube.com/watch?v=6zfN_S8Vyrc>`_.
 
 
 
