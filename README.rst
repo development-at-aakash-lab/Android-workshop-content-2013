@@ -118,8 +118,4 @@ Day 2: Session Videos
 
 * `Android Publishing your Application part-3 <http://www.youtube.com/watch?v=4CgpwFWpGJk&feature=youtu.be>`_.
 
-**Session 11(HTML5 on Android)- Nilesh Singh**
-
-Coming Soon
-
 
