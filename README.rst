@@ -4,11 +4,11 @@ Android-workshop-content-2013 (VIDEOS)
 
 In there you will find three options.
 
-*RTMP Streaming
+* RTMP Streaming
 
-*HTTP Streaming
+* HTTP Streaming
 
-*Download Video
+* Download Video
 
 
 Click on anyone of the option
