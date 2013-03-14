@@ -1,6 +1,6 @@
 Android-workshop-content-2013 (VIDEOS)
 =============================
-**`To view all the video presentations of Android workshop 2013 Click here <http://59.162.23.81/nmeict/avproduction/unedited.php>`_.**
+**`To view all the video presentations of Android workshop 2013 Click here** <http://59.162.23.81/nmeict/avproduction/unedited.php>`_.
 
 
 
