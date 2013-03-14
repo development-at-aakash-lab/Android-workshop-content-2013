@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.mihirgokani.aworkshop.animationdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="in.mihirgokani.aworkshop.animationdemo.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo1"
+            android:label="CanvasDemo1" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo2"
+            android:label="CanvasDemo2" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo3a"
+            android:label="CanvasDemo3a" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo3b"
+            android:label="CanvasDemo3b" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo3c"
+            android:label="CanvasDemo3c" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo4a"
+            android:label="CanvasDemo4a" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo4b"
+            android:label="CanvasDemo4b" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.CanvasDemo4c"
+            android:label="CanvasDemo4c" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo1a"
+            android:label="AnimatorDemo1a" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo1b"
+            android:label="AnimatorDemo1b" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo1c"
+            android:label="AnimatorDemo1c" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo2"
+            android:label="AnimatorDemo2" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo3a"
+            android:label="AnimatorDemo3a" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo3b"
+            android:label="AnimatorDemo3b" >
+        </activity>
+        <activity
+            android:name="in.mihirgokani.aworkshop.animationdemo.AnimatorDemo3c"
+            android:label="AnimatorDemo3c" >
+        </activity>
+        </application>
+
+</manifest>
