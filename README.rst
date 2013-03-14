@@ -13,6 +13,8 @@ In there you will find three options.
 
 Click on anyone of the option
 
+Then click on  **Aakash Android Application Programming link** present there.
+
 
 
 Day 1: Session Videos
