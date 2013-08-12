@@ -1,6 +1,6 @@
 Android-workshop-content-2013 (VIDEOS)
 =============================
-`To view all the unedited video presentations of Android workshop 2013 Click here <http://59.162.23.81/nmeict/avproduction/unedited.php>`_.
+`To view all the video presentations of Android workshop 2013 Click here < http://www.it.iitb.ac.in/nmeict/eVideos/Aakhas_Students/content/content.html>`_.
 
 In there you will find three options.
 
