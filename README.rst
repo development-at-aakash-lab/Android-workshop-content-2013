@@ -2,6 +2,8 @@ Android-workshop-content-2013 (VIDEOS)
 =============================
 To view all the video presentations of Android workshop 2013 `Click here < http://www.it.iitb.ac.in/nmeict/eVideos/Aakhas_Students/content/content.html >`_.
 
+`Aakash <http://www.it.iitb.ac.in/aakash2/index.jsp>`_ is a low cost
+
 In there you will find three options.
 
 * RTMP Streaming
